@@ -1,0 +1,62 @@
+<%- include('partials/header', {title :'Your restaurant name here | Contact Us'}) %> 
+
+<%- include('partials/navbar') %>
+<main>
+
+            
+             <section class="hero-image">
+                <div class="contact-hero"  style="background: url(/images/bg-contact.png);background-position: center ;background-repeat: no-repeat ; background-size: cover;">
+                    <div class="contact-text">
+                        <div class="main-txt">
+            
+                            <h1 style="text-align: left;font-size: 60px;"> Join our Team</h1>
+                            <p class="txt-p">We are always on the lookout for likeminded
+                                professionals to join our team.</p>
+                                <form action="" class="contact">
+                                   <div>
+                                    <input type="text" name="contactName" id="contactName" placeholder="Name" required="">
+                                   </div>
+                                   <div>
+                                    <input type="email" name="contactEmail" id="contactEmail" placeholder="Email" required="">
+                                   </div>
+                                   <div>
+                                    <textarea name="contactMessage" id="contactMessage" placeholder="Message" required=""></textarea>
+                                   </div>
+        
+                                   <button type="submit"  style=" width: 250px ;font-size:16px; ">Submit</button>
+                                </form>
+                        </div>
+                        <div class="cool">
+    
+                            <div class="contact-sub-txt">
+                                   
+                                    <p>
+                                        If you are passionate about hospitality <br> ambitious about progression and want fo be a part <br> of a winning team, please sumbit your CV.</p>
+                            </div>
+                            <div class="contact-main">
+                                <div class="cv-drop">
+                                    <label for="input-file">Attach PDF</label>
+                                    <input
+                                      type="file"
+                                      id="input-file"
+                                      name="input-file"
+                                      accept=".pdf"/>
+                                </div>
+                                <div id="preview">
+                                    <p>No files currently selected for upload</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+                    
+                </section>
+            <div class="slider"></div>
+</main>
+<%- include('partials/footer') %>
+<%- include('partials/js-parts') %>
+
+</body>
+</html>

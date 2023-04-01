@@ -1,0 +1,161 @@
+html{
+    overflow-x:hidden;
+}
+.mg{
+    margin: 0 200px;
+}
+.txt-p{
+    color: #edf0f1;
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+}
+.contact{
+    color: #edf0f1;
+    width: 70%;
+}
+.contact-hero {
+    width: 100%;
+    height: 805px;
+    position: relative;
+    top: -110px;
+    /* padding-top: 32px ; */
+  }
+.contact-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 150px;
+    position: absolute;
+    justify-content: center;
+     margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #edf0f1;
+  }
+.contact input, .contact textarea {
+    width: 80%;
+    /* float: left; */
+    padding: 0px;
+    padding-bottom: 15px;
+    font-size: 23px;
+    color: #edf0f1;
+    background: none;
+    border: 0px none;
+    border-bottom: 1px solid #edf0f1;
+    outline: none;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+
+}
+main{
+    background-color:  #F3E4B2;
+}
+.lits{
+    position: absolute;
+    top: 115%;
+}
+.lits img{
+    width: 90vw;
+    height: 250px;
+    object-fit: cover;
+}
+.contact input, textarea {
+    border-bottom-color: #edf0f1;
+}
+textarea {
+    margin-bottom: 0px;
+    height: 120px;
+}
+.contact-sub-txt p{
+    font-size: 20px;
+    margin-bottom:20px ;
+    color:#edf0f1;
+}
+.explica{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-main h3{
+    font-size: 32px;
+}
+.contact-main p{
+    font-size: 20px;
+    color: #edf0f1;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px ;
+}
+#input-file {
+    width: auto;
+    display: inline-block;
+    float: none;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.cv-drop{
+    width: 100%;
+    border: 1px solid #edf0f1;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px
+}
+.cv-drop label{
+    width: auto;
+    padding: 8px 25px;
+    border: 1px solid #edf0f1;
+    background-color: rgba(243,228,178, 1);
+    margin-bottom: 0px;
+    white-space: nowrap;
+    color: #000;
+}
+
+@media only screen and (max-width: 1001px){
+    
+    
+    .contact-hero{
+        top:-139px;
+        
+    }
+}
+@media only screen and (max-width: 840px){
+    .contact-text{
+        padding: 20px 84px;
+
+    }
+.contact-main p{
+    
+    padding-left: 20px;
+
+}
+}
+@media only screen and (max-width: 600px){
+    .cool{
+        display: none;
+    }
+.lits{
+    top: 105%;
+}
+    .contact-text{
+        top:50%;
+            padding: 20px 26px;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 450px){
+    .main-txt h1 {
+        font-size: 44px;
+    }
+    .contact input, .contact textarea {
+        width: 90vw;
+    
+    }
+    .lits{
+    display: none;        
+    }
+    .working-hours, .footer-logo{
+        margin-top: 20px;
+    }
+    }
+
+

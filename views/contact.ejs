@@ -1,0 +1,65 @@
+<%- include('partials/header', {title :'Your restaurant name here | Contact Us'}) %> 
+
+<%- include('partials/navbar') %>
+<main class="contact-bg">
+
+        <section class="hero-image">
+            <div class="contact-hero"  style="background: url(/images/bg-contact.png);background-position: center ;background-repeat: no-repeat ; background-size: cover;">
+                <div class="contact-text">
+                    <div class="main-txt">
+        
+                        <h1 style="text-align: left;font-size: 60px;"> Contact Us</h1>
+                        <p class="txt-p">Drop us a line anytime for questions, suggestions or
+                            concerns. We’ll respond as soon as possible.</p>
+                            <form action="" class="contact">
+                               <div>
+                                <input type="text" name="contactName" id="contactName" placeholder="Name" required="">
+                               </div>
+                               <div>
+                                <input type="email" name="contactEmail" id="contactEmail" placeholder="Email" required="">
+                               </div>
+                               <div>
+                                <textarea name="contactMessage" id="contactMessage" placeholder="Message" required=""></textarea>
+                               </div>
+    
+                               <button type="submit" class="buttonred" style=" width: 250px; margin-top: 30px">Submit</button>
+                            </form>
+                    </div>
+                    <div class="cool">
+
+                        <div class="contact-sub-txt">
+                                <p>Experience it yourself, it’s worth<br>
+                                every sip, and every bite.</p>
+                        </div>
+                        <div class="contact-main">
+                            <div class="explica">
+                                <h3>Contact</h3>
+                                <p>+233 591159312</p>
+                            </div>
+                            <div class="explica">
+                                <h3>Based In</h3>
+                                <p>+233 591159312</p>
+                            </div>
+                            <div class="explica">
+                                <h3>Media</h3>
+                                <a href="#">
+                                    <img src="https://www.kozogh.com/images/icon-facebook.svg">
+                                </a>
+                                <a href="#">
+                                    <img src="https://www.kozogh.com/images/icon-instagram.svg">
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+            </div>
+                
+            </section>
+        <div class="slider"></div>
+</main>
+<%- include('partials/footer') %>
+<%- include('partials/js-parts') %>
+
+</body>
+</html>
