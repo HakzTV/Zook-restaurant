@@ -1,5 +1,6 @@
 html{
     overflow-x:hidden;
+    scroll-behavior: smooth;
 }
 .mg{
     margin: 0 200px;
@@ -111,7 +112,9 @@ textarea {
 }
 
 @media only screen and (max-width: 1001px){
-    
+    .cv-drops{
+        display: none;
+      }
     
     .contact-hero{
         top:-139px;
@@ -119,6 +122,29 @@ textarea {
     }
 }
 @media only screen and (max-width: 840px){
+    .cools{
+        display: none;
+      }
+     
+    .cv-drops{
+          display: block;
+        width: inherit;
+        border: 1px solid #edf0f1;
+        padding: 10px;
+        display: flex;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .cv-drops label{
+        width: auto;
+        padding: 8px 25px;
+        border: 1px solid #edf0f1;
+        background-color: rgba(243,228,178, 1);
+        margin-bottom: 0px;
+        white-space: nowrap;
+        color: #000;
+    }
+     
     .contact-text{
         padding: 20px 84px;
 
@@ -137,17 +163,30 @@ textarea {
     top: 105%;
 }
     .contact-text{
-        top:50%;
-            padding: 20px 26px;
+        top:55%;
+        left: 60%;
+            padding: 0;
+            overflow: hidden;
         flex-direction: column;
+        width: 80%;
     }
 }
 @media only screen and (max-width: 450px){
+    .contact{
+        width: 75%;
+    }
+    
+    .txt-p{
+        font-size: 13px;
+    }
+    .main-txt{
+        width: 100%;
+    }
     .main-txt h1 {
         font-size: 44px;
     }
     .contact input, .contact textarea {
-        width: 90vw;
+        width: 70%;
     
     }
     .lits{

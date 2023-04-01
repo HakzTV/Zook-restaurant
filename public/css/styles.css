@@ -136,7 +136,7 @@ button a{
     z-index: 1;
     right: 0;
     top: 0;
-    background-color: #24252a;
+    background-color: #0E1D2F;
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
 }
@@ -708,6 +708,7 @@ footer p{
     .hero-image{
         height: 84.5vw;
     }
+   
     .bg-one{
         bottom: calc(0px + -402vw);
     }
